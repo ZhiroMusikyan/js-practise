@@ -1,11 +1,25 @@
+import {one, two} from './module'
+
 window.onload = main;
 
 function main() {
-    for (let i = 0; i <; i++) {
-        let s;
-    }
 
     debugger
+    switch (name) {
+        case 'ara':{
+            if (1 === 1) {
+                console.log('ara')
+            }
+            break;
+        }
+        case 'arsen': {
+            if(2 === 2) {
+                alert('asa');
+            }
+            break;
+        }
+    }
+alert(one);
     let date = new Date();
     let date1 = date.startOfMonth();
     let r = document.getElementById('btn');
@@ -24,18 +38,9 @@ function getStr() {
     return [].slice.call(arguments, 1).join(arguments[0])
 
 }
-
-debugger
-
-
-
-
-
-a()
-
 let a = function () {
     console.log('a');
-}
+};
 let date = new Date();
 let date1 = date.startOfMonth();
 Date.prototype.startOfMonth = function() {
