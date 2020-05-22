@@ -1,7 +1,8 @@
 // Rest
-// function average(a, b,...args) {
-//     return args.reduce((acc, i) => acc += i, 0) / args.length;
-// }
+function average(a, b,...args) {
+    debugger
+    return args.reduce((acc, i) => acc += i, 0) / args.length;
+}
 
 // console.log(average(10, 20, 30, 40, 50));
 

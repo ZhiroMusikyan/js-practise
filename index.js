@@ -1,9 +1,10 @@
-import {one, two} from './module'
+import {one, two} from './module.js'
 
 window.onload = main;
 
 function main() {
-
+let name = 'ara';
+let n = 0.5;
     debugger
     switch (name) {
         case 'ara':{

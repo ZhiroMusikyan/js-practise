@@ -2,28 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="test.js"></script>
-    <link rel="stylesheet" href="test.css">
-    <button id="btn" onclick="main()">test</button>
+        <script type="module" src="table.js"></script>
+    <style type="text/css">
+        .myTable {
+            width: 500px;
+            border: 0;
+        }
+
+        .headerRow {
+            border-bottom: 1px solid lightgrey;
+            background-color: lightgrey;
+            font-size: 11pt;
+        }
+
+        .row {
+            border: 0;
+            height: 20px;
+            font-size: 9pt;
+        }
+
+        .cell {
+            border: 0;
+            border-bottom: 1px solid #E3E1E0;
+            padding-bottom: 3px;
+            padding-top: 3px;
+            padding-left: 3px;
+            margin-bottom: 12px;
+        }
+    </style>
 </head>
 <body>
-    <table>
-        <tr data-t=''>
-            <td data-id="1">144 122 122.23</td>
-            <td data-id="1">bbb</td>
-            <td data-id="1">ccc</td>
-        </tr>
-        <tr data-t=''>
-            <td data-id="1">aaa</td>
-            <td data-id="1">bbb</td>
-            <td data-id="1">ccc</td>
-        </tr><tr data-t=''>
-        <td data-id="1">aaa</td>
-        <td data-id="1">bbb</td>
-        <td data-id="1">ccc</td>
-    </tr>
+<div id="wrap">
+    <table class="myTable" id="table">
+        <thedrr>
+            <tr class="headerRow">
+                <th class="test-cl">Test</th>
+                <th class="deviation-cl">Deviation</th>
+            </tr>
+        </thedrr>
+        <tbody>
+        </tbody>
     </table>
+</div>
 
 </body>
 </html>
